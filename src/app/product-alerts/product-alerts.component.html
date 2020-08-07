@@ -2,6 +2,6 @@
   <button (click)="checkout.emit()">Check Out</button>
 </p>
 
-<h6 *ngIf="product.price > 700">
+<h6 *ngIf="product.price < 700">
   <button (click)="notify.emit()">Notify Me</button>
 </h6>
